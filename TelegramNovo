@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css.css" />
+        <script src="telegram.js"></script>
+        
+        <title id="Telegram Bot"> </title>
+        
+    </head>
+    <body>
+        
+        <header class="Cabeçalho"><h1>Telegram Bot</h1></header>
+        
+        <nav class="Menu">
+        <input type="text"  value="https://api.telegram.org/bot244362144:AAF4umSYxMVZ_AesuDmetIXd3KQi8Ie0M5E/getUpdates" id="htpp"  />
+        <input TYPE="button" value="Enviar" onclick="sendText()"/>
+        </nav>
+        <div id="resposta">  </div>
+      
+    </body>
+    
+</html>
